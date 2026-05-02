@@ -2,6 +2,10 @@
 # Aim
 Write a simple Python program for the construction and reconstruction of ideal, natural, and flattop sampling.
 # Tools required
+GOOGLE COLAB
+# Theory
+In Digital Communication, ideal sampling is a theoretical process used to convert a continuous-time signal into a discrete-time signal by taking samples at perfectly uniform intervals. It assumes the use of infinitely narrow impulses to capture exact values of the signal at specific instants of time, which makes it an idealized concept rather than a practical one. According to the Nyquist-Shannon Sampling Theorem, the sampling rate must be at least twice the highest frequency present in the signal to ensure that the original signal can be reconstructed without any loss of information. When this condition is satisfied, perfect reconstruction is possible using appropriate filtering techniques; otherwise, a phenomenon called aliasing occurs, where different frequency components overlap and distort the signal. Thus, ideal sampling forms the fundamental basis for signal processing in digital communication systems, even though it cannot be implemented exactly in real-world applications.
+
 # Program
 ## Impulse sampling
 ```
